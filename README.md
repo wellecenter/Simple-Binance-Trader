@@ -47,8 +47,8 @@ First get the base modules:
  - To quickly install all the required modules use 'pip3 install -r requirements'.
 
 Secondly get the required techinal indicators module adn binance api.
- - https://github.com/EasyAI/binance_api, This is the binance API that the trader uses.
- - https://github.com/EasyAI/Python-Charting-Indicators, This contains the logic to calculate technical indicators. (only the file technical_indicators.py is needed)
+ - https://github.com/wellecenter/binance_api, This is the binance API that the trader uses.
+ - https://github.com/wellecenter/Python-Charting-Indicators, This contains the logic to calculate technical indicators. (only the file technical_indicators.py is needed)
 
 Move them into the site-packages folder. NOTE: If you get an error saying that either the technical_indicators or binance_api is not found you can move them in to the same directory as the run.py file for the trader.
 
